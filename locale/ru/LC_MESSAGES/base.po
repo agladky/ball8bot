@@ -1,0 +1,92 @@
+# Ball 8 telegram bot.
+# Copyright (C) 2018
+# Anatoly Gladky, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2018-12-02 13:16+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Anatoly Gladky\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#
+# main.py
+#
+msgid "Shake the 🎱"
+msgstr "Потрясти 🎱"
+
+msgid "Choose"
+msgstr "Выбирайте"
+
+msgid "Help"
+msgstr "Помощь"
+
+
+#
+# ball.py
+#
+msgid "It is certain"
+msgstr "Бесспорно"
+
+msgid "It is decidedly so"
+msgstr "Предрешено"
+
+msgid "Without a doubt"
+msgstr "Никаких сомнений"
+
+msgid "Yes - definitely"
+msgstr "Определённо да"
+
+msgid "You may rely on it"
+msgstr "Можешь быть уверен в этом"
+
+msgid "As I see it, yes"
+msgstr "Мне кажется — «да»"
+
+msgid "Most likely"
+msgstr "Вероятнее всего"
+
+msgid "Outlook good"
+msgstr "Хорошие перспективы"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Signs point to yes"
+msgstr "Знаки говорят — «да»"
+
+msgid "Reply hazy, try again"
+msgstr "Пока не ясно, попробуй снова"
+
+msgid "Ask again later"
+msgstr "Спроси позже"
+
+msgid "Better not tell you now"
+msgstr "Лучше не рассказывать"
+
+msgid "Cannot predict now"
+msgstr "Сейчас нельзя предсказать"
+
+msgid "Concentrate and ask again"
+msgstr "Сконцентрируйся и спроси опять"
+
+msgid "Don't count on it"
+msgstr "Даже не думай"
+
+msgid "My reply is no"
+msgstr "Мой ответ — «нет»"
+
+msgid "My sources say no"
+msgstr "По моим данным — «нет»"
+
+msgid "Outlook not so good"
+msgstr "Перспективы не очень хорошие"
+
+msgid "Very doubtful"
+msgstr "Весьма сомнительно"
+

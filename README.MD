@@ -1,26 +1,24 @@
-![Логотип Магический шар 8](content/ball8_logo.png?raw=true)
+![The Magic Ball-8 Logo](content/ball8_logotext_en.png?raw=true)
 
-Бот для эмуляции Магического шара 8, шуточной игрушки для предсказания будущего. [Побробнее.](https://ru.wikipedia.org/wiki/Magic_8_ball)
+Telegram bot ([@ball8en_bot](https://t.me/ball8en_bot)) for emulation of The Magic 8-Ball, a toy used for fortune-telling or seeking advice. [Wiki.](https://en.wikipedia.org/wiki/Magic_8-Ball)
 
-Адрес в телеграме — [@ball8ru_bot](https://t.me/ball8ru_bot) 
-
-## Как запустить
-1. Загрузить [zip-архив]() или выполнить команду
+## How to run the bot
+1. Download [zip-archive]() or execute the command
     ```sh
     git clone git@github.com:agladky/ball8bot.git
     ```
-2. Создать виртуальное окружение
+2. Create a virtual environment
     ```sh
     python3 -m venv ./venv
     ```
-3. Установить зависимости
+3. Install the dependencies
     ```sh
     pip install -r requirements.txt
     ```
-4. Переименовать `config.example.py` в `config.py`
-5. Получить токен у [@BotFather](https://t.me/BotFather) и записать в переменную `bot_token`
-6. Запросить `/setinline` права у @BotFather
-7. Запустить бота командой
+4. Rename `config.example.py` into `config.py`
+5. Get token at [@BotFather](https://t.me/BotFather) and fill the `bot_token` config parameter
+6. Get `/setinline` rights at @BotFather
+7. Run a bot
     ```sh
     python main.py
     ```

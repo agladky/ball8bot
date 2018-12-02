@@ -2,13 +2,22 @@
 
 import logging
 import config
+import gettext
 
-from ball import Ball
 from uuid import uuid4
 from telegram.ext import (Updater, CommandHandler,
                           InlineQueryHandler, RegexHandler)
 from telegram import (InlineQueryResultArticle, InputTextMessageContent,
                       ReplyKeyboardMarkup)
+
+SUPPORTED_LANGUAGES = ['en', 'ru']
+languages = [config.language] if config.language in SUPPORTED_LANGUAGES else [SUPPORTED_LANGUAGES[0]]
+translation = gettext.translation('base', localedir='locale', languages=languages)
+translation.install()
+
+# App imports
+from ball import Ball  # noqa: E402
+
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -22,23 +31,16 @@ def start(bot, update):
     """
     Send a message when the command /start is issued.
     """
-    reply_markup = ReplyKeyboardMarkup([['Потрясти 🎱']],
+    reply_markup = ReplyKeyboardMarkup([[_('Shake the 🎱')]],
                                        resize_keyboard=True)
-    update.message.reply_text('Выбирайте:', reply_markup=reply_markup)
-
-
-def button(bot, update):
-    query = update.callback_query
-    bot.edit_message_text(text="Selected option: {}".format(query.data),
-                          chat_id=query.message.chat_id,
-                          message_id=query.message.message_id)
+    update.message.reply_text('{}:'.format(_('Choose')), reply_markup=reply_markup)
 
 
 def help(bot, update):
     """
     Send a message when the command /help is issued.
     """
-    update.message.reply_text('Помошь')
+    update.message.reply_text(_('Help'))
 
 
 def error(bot, update, error):
@@ -62,7 +64,7 @@ def inline_shake(bot, update):
     results = [
         InlineQueryResultArticle(
             id=uuid4(),
-            title='Потрясти 🎱',
+            title=_('Shake the 🎱'),
             input_message_content=InputTextMessageContent(ball.shake())
         ),
     ]
@@ -79,7 +81,7 @@ def main():
     dispatcher.add_handler(CommandHandler('start', start))
     dispatcher.add_handler(CommandHandler('help', help))
     dispatcher.add_handler(CommandHandler('shake', shake))
-    dispatcher.add_handler(RegexHandler('^Потрясти 🎱$', shake))
+    dispatcher.add_handler(RegexHandler('^{}$'.format(_('Shake the 🎱')), shake))
 
     dispatcher.add_error_handler(error)
 

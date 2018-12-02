@@ -1,0 +1,90 @@
+# Ball 8 telegram bot.
+# Copyright (C) 2018
+# Anatoly Gladky, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2018-12-02 13:16+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Anatoly Gladky\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#
+# main.py
+#
+msgid "Shake the 🎱"
+msgstr "Shake the 🎱"
+
+msgid "Choose"
+msgstr "Choose"
+
+msgid "Help"
+msgstr "Help"
+
+#
+# ball.py
+#
+msgid "It is certain"
+msgstr "It is certain"
+
+msgid "It is decidedly so"
+msgstr "It is decidedly so"
+
+msgid "Without a doubt"
+msgstr "Without a doubt"
+
+msgid "Yes - definitely"
+msgstr "Yes - definitely"
+
+msgid "You may rely on it"
+msgstr "You may rely on it"
+
+msgid "As I see it, yes"
+msgstr "As I see it, yes"
+
+msgid "Most likely"
+msgstr "Most likely"
+
+msgid "Outlook good"
+msgstr "Outlook good"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "Signs point to yes"
+msgstr "Signs point to yes"
+
+msgid "Reply hazy, try again"
+msgstr "Reply hazy, try again"
+
+msgid "Ask again later"
+msgstr "Ask again later"
+
+msgid "Better not tell you now"
+msgstr "Better not tell you now"
+
+msgid "Cannot predict now"
+msgstr "Cannot predict now"
+
+msgid "Concentrate and ask again"
+msgstr "Concentrate and ask again"
+
+msgid "Don't count on it"
+msgstr "Don't count on it"
+
+msgid "My reply is no"
+msgstr "My reply is no"
+
+msgid "My sources say no"
+msgstr "My sources say no"
+
+msgid "Outlook not so good"
+msgstr "Outlook not so good"
+
+msgid "Very doubtful"
+msgstr "Very doubtful"
+
