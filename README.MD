@@ -1,6 +1,6 @@
 ![The Magic Ball-8 Logo](content/ball8_logotext_en.png?raw=true)
 
-Telegram bot ([@ball8en_bot](https://t.me/ball8en_bot)) for emulation of The Magic 8-Ball, a toy used for fortune-telling or seeking advice. [Wiki.](https://en.wikipedia.org/wiki/Magic_8-Ball)
+Telegram bot ([@ball8en_bot](https://t.me/ball8en_bot) [archived]) for emulation of The Magic 8-Ball, a toy used for fortune-telling or seeking advice. [Wiki.](https://en.wikipedia.org/wiki/Magic_8-Ball)
 
 ## How to run the bot
 1. Download [zip-archive]() or execute the command
